@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'gruop-seventiz';
+  src:  url('fonts/gruop-seventiz.eot?ugthmy');
+  src:  url('fonts/gruop-seventiz.eot?ugthmy#iefix') format('embedded-opentype'),
+    url('fonts/gruop-seventiz.ttf?ugthmy') format('truetype'),
+    url('fonts/gruop-seventiz.woff?ugthmy') format('woff'),
+    url('fonts/gruop-seventiz.svg?ugthmy#gruop-seventiz') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'gruop-seventiz' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sic-castle .path1:before {
+  content: "\e900";
+  color: var(--sevengrpcolor);
+}
+.sic-castle .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.sic-cobra .path1:before {
+  content: "\e902";
+  color: var(--sevengrpcolor);
+}
+.sic-cobra .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.sic-gyroscope .path1:before {
+  content: "\e904";
+  color: var(--sevengrpcolor);
+}
+.sic-gyroscope .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.sic-shuriken .path1:before {
+  content: "\e906";
+  color: var(--sevengrpcolor);
+}
+.sic-shuriken .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
